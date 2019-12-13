@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+/**
+ * ckeditor css for tdsyoutube plugin
+ *
+ * Copyright 2017 - TDSystem Beratung & Training  - Thomas Dausner (aka tdausner)
+ */
+div.cke_editable a.tdsyoutube
+{
+	background-color: #bff;
+}
+span.cked_error {
+	color: #d9534f;
+    float: right;
+    position: relative;
+    background: white;
+    border: 1px solid #d9534f;
+    padding: 2px;
+    top: -2px;
+}
+span.cke_button_icon.cke_button__tdsyoutube_icon:before {
+	content: "\f167"; /* fa-yiotube */
+	font-family: FontAwesome;
+	font-size: 16px;
+}
